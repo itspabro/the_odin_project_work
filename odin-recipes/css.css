@@ -1,4 +1,19 @@
 body {
 	background: #bbd6bb;
 	font-family: Helvetica, Arial, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+.card {
+	border: 1px solid green;
+	margin: 10px auto;
+}
+
+.title {
+	text-align: center
+}
+
+.text {
+	padding: 15px;
 }
