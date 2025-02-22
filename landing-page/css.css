@@ -5,6 +5,18 @@ body {
 	margin: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #E5E7EB;
+}
+
+button a:visited {
+	color: white;
+}
+
 .nav-bar,
 .header {
 	background-color: #1F2937;
