@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	margin: 0px;
+}
+
+.nav-bar,
+.header {
+	background-color: #1F2937;
+	display: flex;
+	align-items: center;
+}
+
+.nav-bar {
+	padding: 10px 200px;
+	justify-content: space-between;
+}
+
+.header-logo {
+	font-size: 24px;
+	font-weight: 700;
+	color: #F9FAF8;
+}
+
+.nav-links ul {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	font-size: 18px;
+	color: #E5E7EB;
+	padding: 0px;
+}
+
+.header {
+	padding: 100px 200px;
+	flex-shrink: 0;
+	gap: 50px;
+}
+
+.header-left {
+	width: 50%;
+	padding: 0px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	gap: 10px;
+}
+
+.hero-text {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.header-text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+button {
+	background-color: #3882F6;
+	border: none;
+	padding: 8px 32px;
+	border-radius: 8px;
+
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.header-right {
+	padding: 120px 150px;
+	background-color: #6d747d;
+	color: white;
+	font-size: 18px;
+}
+
+.info {
+	padding: 50px 200px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.info-title {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.info-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 70px;
+}
+
+.pane {
+	color: #1F2937;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.box {
+	border-radius: 25px;
+	border: 5px solid #3882F6;
+	height: 160px;
+	width: 160px;
+}
+
+.info-text {
+	width: 160px;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	padding: 120px 320px;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote-author {
+	font-size: 26px;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 80px;
+}
+
+.footer {
+	margin: 100px 200px;
+	background-color: #3882F6;
+	border-radius: 25px;
+	padding: 50px 100px;
+	color: white;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-title {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.footer-text {
+	font-size: 18px;
+}
+
+.footer-button {
+	border: 2px solid white;
+}
