@@ -6,11 +6,11 @@ let winUser = 0
 
 // introduction
 console.log("Rock Paper Scissors");
-console.log("Best of three wins...");
+console.log("Best of five wins...");
 console.log("");
 
-// loop the games three times
-for ( let i = 0; i < 3; i++ ) {
+// loop the games five times
+for ( let i = 0; i < 5; i++ ) {
 	// computer chooses sign
 	let signComputer = Math.floor( Math.random() * 3 );
 
