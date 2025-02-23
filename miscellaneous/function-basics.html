@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Function Basics</title>
+
+    </head>
+
+    <body>
+	<a href="../index.html">Back</a>
+	<p> </p>
+
+	<h3>Function Basics</h3>
+	<p>Open console (F12, click "Console") to see javascript outputs.</p>
+
+	<script>
+
+	function add7(num) {
+	    return num + 7
+	}
+	console.log(add7(62))
+
+	function multiply(num1, num2) {
+	    return num1 * num2
+	}
+	console.log(multiply(105, 4))
+
+	function capitalize(string) {
+	    // get first character (index 0) and set to upper case,
+	    // then attach string sliced at second character (index 1)
+	    return String(string).charAt(0).toUpperCase() + String(string).slice(1);
+	}
+	console.log( capitalize("hello") )
+	console.log( capitalize("WORLD") )
+	console.log( capitalize("aSdFjKl:") )
+
+	function lastLetter(something) {
+	    return String(something).charAt(something.length - 1)
+	}
+	console.log( lastLetter("boobs") )
+
+	</script>
+
+    </body>
+
+</html>
