@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+#backBtn {
+	color: white;
+	align-self: baseline;
+}
+
+#backBtn:visited {
+	color: white;
+}
+
+#board {
+	background-color: #a5a9b5;
+	width: 980px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	padding: 50px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.youme {
+	font-size: 18px;
+}
+
+#gameTitle {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+#signCard {
+	flex-direction: row;
+	gap: 20px;
+}
+
+.signButton {
+	border-radius: 10px;
+	font-size: 80px;
+	padding: 20px;
+}
+
+#reset {
+	padding: 10px 25px;
+	font-size: 24px;
+}
