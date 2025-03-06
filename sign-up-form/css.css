@@ -1,0 +1,146 @@
+@font-face {
+	font-family: Norse-Bold;
+	src: url("./Norse-Bold.otf") format("opentype");
+}
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+}
+
+#backBtn {
+	align-self: baseline;
+}
+
+#left {
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 2vh;
+	background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#container-odin-logo {
+	position: relative;
+	bottom: 20vh;
+	width: 100%;
+	padding: 15px 0px;
+	background-color: #00000088;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: Norse-Bold;
+	font-size: 128px;
+}
+
+#image-credit {
+	font-size: 18px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+#left a {
+	color: white;
+	text-decoration: underline;
+}
+
+#right {
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	font-size: 2.2vh;
+	font-weight: 700;
+}
+
+.panel {
+	padding-left: 3vw;
+}
+
+#header {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding-bottom: 2vh;
+	background-color: #f9fafb;
+}
+
+#form {
+	box-sizing: border-box;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 4vh;
+	padding-top: 3vh;
+	padding-bottom: 4vh;
+	box-shadow: 10px 10px #888888;
+}
+
+.form-row {
+	display: flex;
+	gap: 4vw;
+}
+
+label {
+	font-size: 1.2vh;
+	font-weight: 700;
+}
+
+input {
+	width: 12vw;
+	font-size: 1.4vh;
+	padding: 0.8vh;
+	border-radius: 8px;
+	border: 2px solid #E5E7EB;
+}
+
+input:focus {
+	border: 2px solid #4178D1;
+	outline: none;
+	box-shadow: 5px 5px #E5E7EB;
+}
+
+input[type=password]:invalid {
+	border: 2px solid red;
+}
+
+#footer {
+	box-sizing: border-box;
+	height: 30vh;
+	background-color: #f9fafb;
+	padding-top: 4vh;
+}
+
+#btnCreate {
+	background-color: #596D48;
+	color: white;
+	font-size: 2vh;
+	font-weight: 700;
+	padding: 1.2vh 3vw;
+	border-radius: 10px;
+}
+
+#loginLine {
+	padding-top: 1.4vh;
+	font-size: 1.8vh;
+}
+
+#loginLine > a {
+	color: #596D48;
+}
