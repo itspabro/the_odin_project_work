@@ -1,14 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	font-family: "Roboto";
+	font-size: calc(8px + 1vh);
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container a:visited {
+	color: white;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: auto 1fr;
+	height: 100vh;
+}
+
+.sidebar {
+	grid-area: 1 / 1 / 3 / 2;
+	background-color: #1992D4;
+	color: white;
+
+	padding: 2vh 3vw;
+}
+
 .navTitle,
 .navLink{
 	display: flex;
 	align-items: center;
-	gap: 5px;
+	gap: 1vw;
+}
+
+.navLinkCard {
+padding: 2vh 0.5vw;
+}
+
+.navTitleName {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.navName {
+	font-size: 1.2rem;
+	font-weight: 700;
 }
 
 .navTitleIcon>svg {
-	height: 50px;
+	height: 5vh;
+	filter: brightness(0) invert(1);
 }
 
 .navIcon>svg {
-	height: 30px;
+	height: 3vh;
+	filter: brightness(0) invert(1);
+}
+
+.topbar {
+	z-index: 10;
+	grid-area: 1 / 2 / 2 / 3;
+	box-shadow: 0px 7px 7px 0px #B9BEC4;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+
+	padding: 2vh 3vw;
+}
+
+.topbar1,
+.topbar2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.topIcon>svg {
+	height: 3vh;
+}
+
+.search,
+.account {
+	display: flex;
+	align-items: center;
+	gap: 2vw;
+}
+
+.searchBar input {
+	background-color: #E2E8F0;
+	border-radius: 1rem;
+	border: none;
+	padding: 0.5vh 0.5vw;
+	width: 40vw;
+	font-size: 1.5rem;
+}
+
+.accountName {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.welcome {
+	display: flex;
+	align-items: center;
+	gap: 1vw;
+}
+
+.welcomeMessage {
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+}
+
+.hiThere {
+	font-weight: 700;
+}
+
+.heroAccountName {
+	font-size: 1.75rem;
+	font-weight: 700;
+}
+
+.heroPfp {
+	border-radius: 50%;
+	/*width: 120px;*/
+	width: 4.5vw;
+}
+
+.pfp {
+	border-radius: 50%;
+	width: 3vw;
+}
+
+.projectButtons {
+	display: flex;
+	gap: 2vw;
+}
+
+.btnProject {
+	background-color: #1992D4;
+	border: none;
+	border-radius: 25px;
+	color: white;
+	padding: 1.1vh 2vw;
+	font-size: 1.2rem;
+}
+
+.content {
+	grid-area: 2 / 2 / 3 / 3;
+	background-color: #E2E8F0;
 }
