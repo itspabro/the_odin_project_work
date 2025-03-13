@@ -1,0 +1,14 @@
+.navTitle,
+.navLink{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.navTitleIcon>svg {
+	height: 50px;
+}
+
+.navIcon>svg {
+	height: 30px;
+}
