@@ -157,4 +157,52 @@ padding: 2vh 0.5vw;
 .content {
 	grid-area: 2 / 2 / 3 / 3;
 	background-color: #E2E8F0;
+
+	display: grid;
+	grid-template-columns: 2.5fr 1fr;
+}
+
+.containerAnnounce {
+	padding: 4vh 2vw;
+}
+
+.cardAnnounce {
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+}
+
+.label {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.announcements {
+	background-color: white;
+	padding: 4vh 2vw;
+	border-radius: 15px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+}
+
+.announceItem {
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+}
+
+.announceItemTitle {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.announceItemContent {
+	font-size: 0.9rem;
+	color: #636363;
+}
+
+hr {
+	width: 100%;
 }
