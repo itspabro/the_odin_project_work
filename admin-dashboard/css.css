@@ -14,7 +14,7 @@ a {
 	text-decoration: none;
 }
 
-.container a:visited {
+.sidebar a:visited {
 	color: white;
 }
 
@@ -160,6 +160,7 @@ padding: 2vh 0.5vw;
 
 	display: grid;
 	grid-template-columns: 2.5fr 1fr;
+	overflow: auto;
 }
 
 .containerAnnounce {
@@ -170,6 +171,8 @@ padding: 2vh 0.5vw;
 	display: flex;
 	flex-direction: column;
 	gap: 2vh;
+
+	margin-bottom: 4vh;
 }
 
 .label {
@@ -184,7 +187,7 @@ padding: 2vh 0.5vw;
 
 	display: flex;
 	flex-direction: column;
-	gap: 1vh;
+	gap: 1.5vh;
 }
 
 .announceItem {
@@ -205,4 +208,32 @@ padding: 2vh 0.5vw;
 
 hr {
 	width: 100%;
+}
+
+.trending {
+	background-color: white;
+	padding: 3vh 2vw;
+	border-radius: 15px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2.5vh;
+}
+
+.trendingItem {
+	display: flex;
+	align-items: center;
+	gap: 1vw;
+}
+
+.trendingName {
+	font-size: 1.1rem;
+}
+
+.content a:visited {
+	color: black;
+}
+
+.trendingDesc {
+	color: #636363;
 }
