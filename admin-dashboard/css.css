@@ -163,8 +163,47 @@ padding: 2vh 0.5vw;
 	overflow: auto;
 }
 
+.containerCards,
 .containerAnnounce {
+	padding: 4vh 1vw;
+}
+
+.projects {
+	padding-top: 2vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2vw;
+}
+
+.projectCard {
+	background-color: white;
+	border-radius: 15px;
 	padding: 4vh 2vw;
+	height: 18vh;
+
+	border-left: 0.6vw solid #F0B429;
+	box-shadow: 7px 7px 7px 0px #B9BEC4;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.projectCardInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5vh;
+}
+
+.projectDesc {
+	font-size: 1.2rem;
+	color: #636363;
+}
+
+.projectCardBtns {
+	display: flex;
+	justify-content: end;
+	gap: 1.5vw;
 }
 
 .cardAnnounce {
@@ -184,6 +223,7 @@ padding: 2vh 0.5vw;
 	background-color: white;
 	padding: 4vh 2vw;
 	border-radius: 15px;
+	box-shadow: 7px 7px 7px 0px #B9BEC4;
 
 	display: flex;
 	flex-direction: column;
@@ -214,6 +254,7 @@ hr {
 	background-color: white;
 	padding: 3vh 2vw;
 	border-radius: 15px;
+	box-shadow: 7px 7px 7px 0px #B9BEC4;
 
 	display: flex;
 	flex-direction: column;
